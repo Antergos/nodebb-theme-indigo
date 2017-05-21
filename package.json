@@ -1,0 +1,32 @@
+{
+	"name": "nodebb-theme-indigo",
+	"version": "0.0.1",
+	"nbbpm": {
+		"compatibility": "^1.4.4"
+	},
+	"description": "A modern theme for NodeBB inspired by Lavender, built with ReactJS.",
+	"main": "theme.less",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/antergos/nodebb-theme-indigo"
+	},
+	"keywords": [
+		"nodebb",
+		"theme",
+		"forum",
+		"react",
+		"responsive",
+		"material"
+	],
+	"contributors": [
+		{
+			"name": "Dustin Falgout",
+			"email": "dustin@antergos.com",
+			"url": "https://github.com/lots0logs"
+		}
+	],
+	"license": "GPL-3.0",
+	"bugs": {
+		"url": "https://github.com/antergos/nodebb-theme-indigo/issues"
+	}
+}

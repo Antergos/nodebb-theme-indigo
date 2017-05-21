@@ -1,0 +1,44 @@
+{
+	"id": "nodebb-theme-indigo",
+	"library": "app/library.js",
+	"hooks": [
+		{
+			"hook": "filter:widgets.getAreas",
+			"method": "getWidgetAreas"
+		},
+		{
+			"hook": "static:app.load",
+			"method": "init"
+		},
+		{
+			"hook": "static:app.preload",
+			"method": "preinit"
+		},
+		{
+			"hook": "filter:admin.header.build",
+			"method": "addAdminMenuLink"
+		},
+		{
+			"hook": "filter:config.get",
+			"method": "getConfig"
+		},
+		{
+			"hook": "filter:parse.post",
+			"method": "filter_post_content"
+		},
+		{
+			"hook": "filter:teasers.get",
+			"method": "filter_topic_teasers",
+			"priority": 1
+		}
+	],
+	"scripts": [
+
+	],
+	"acpScripts": [
+		"lib/admin.js"
+	],
+	"staticDirs": {
+		"assets": "assets"
+	}
+}

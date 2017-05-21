@@ -1,0 +1,7 @@
+{
+	"id": "nodebb-theme-indigo",
+	"name": "Indigo",
+	"description": "A modern theme for NodeBB inspired by Lavender, built with ReactJS.",
+	"url": "https://github.com/antergos/nodebb-theme-indigo",
+	"screenshot": "assets/screenshot.png"
+}
